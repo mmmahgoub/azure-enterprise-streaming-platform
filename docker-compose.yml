@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo:7
+    container_name: netflix-mongodb
+    restart: unless-stopped
+
+    ports:
+      - "27018:27017"
+
+    environment:
+      MONGO_INITDB_DATABASE: netflixclone
+
+    volumes:
+      - ./mongodb-data:/data/db
