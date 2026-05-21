@@ -62,3 +62,7 @@ Frontend (React App) ↓ Azure Load Balancer ↓ VM Scale Set (Frontend Servers)
 (Azure App Service) ↓ Azure Cosmos DB (MongoDB API)
 
 Secure Administration: VPN Gateway → Jump Box VM → Internal Resources
+
+
+
+Author: Muhanad Mohamed
